@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-blue);
+}
+
+.header__logo-box {
+    width: 10%;
+}
+
+.header__logo-box__logo {
+    width: 100%;
+    filter: drop-shadow(0 0 5px var(--shadow-black));
+}
+
+.header__logo-box__logo:hover {
+    filter: drop-shadow(0 0 5px var(--white));
+}
+
+.fa-bars {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: var(--white);
+}
+
+.fa-bars:hover {
+    color: var(--details-purple);
+    filter: drop-shadow(0 0 5px var(--shadow-black));
+}

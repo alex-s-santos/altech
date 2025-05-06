@@ -37,3 +37,21 @@ body {
     --details-purple: #844CFF;
     --shadow-black: #111;
 }
+
+@keyframes pulse {
+    0% {
+        box-shadow: .5px .5px 10px var(--details-purple);
+    }
+    250% {
+        box-shadow: 1px 1px 20px var(--details-purple);
+    }
+    50% {
+        box-shadow: 2px 2px 20px var(--details-purple);
+    }
+    75% {
+        box-shadow: 1px 1px 20px var(--details-purple);
+    }
+    100% {
+        box-shadow: .5px .5px 10px var(--details-purple);
+    }
+}
